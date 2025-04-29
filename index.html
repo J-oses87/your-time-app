@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Time</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Your Time</h1>
+
+        <div id="time" class="box">Heure : --:--:--</div>
+
+        <div class="box">
+            <label for="cityInput">Entrez une ville pour la météo :</label><br />
+            <input type="text" id="cityInput" placeholder="Ex: Paris" />
+            <button id="getWeatherBtn">Voir la météo</button>
+            <div id="weather">Météo : --</div>
+        </div>
+
+        <div class="box">
+            <h2>Dossier sécurisé</h2>
+            <input type="file" id="fileInput" multiple accept="image/*,video/*" />
+            <button id="hideFilesBtn">Cacher les fichiers sélectionnés</button>
+            <button id="showFilesBtn">Afficher fichiers cachés</button>
+            <div id="hiddenFiles"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+Initial commit
